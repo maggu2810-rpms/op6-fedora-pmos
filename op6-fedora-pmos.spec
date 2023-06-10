@@ -1,5 +1,5 @@
 Name:           op6-fedora-pmos
-Version:        0.4.0
+Version:        0.5.0
 Release:        1%{?dist}
 Summary:        OnePlus 6 Fedora and postmarketOS utilities
 
@@ -30,6 +30,9 @@ install -m 0755 bin/update-all %{buildroot}/usr/bin/update-all
 
 
 %changelog
+* Sat Jun 10 2023 Markus Rathgeb <maggu2810@gmail.com>
+- Bump v0.5.0
+
 * Tue May 30 2023 Markus Rathgeb <maggu2810@gmail.com>
 - Bump v0.4.0
 
